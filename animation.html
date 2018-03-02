@@ -1,0 +1,60 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>animation</title>
+<style>
+@keyframes anonimus {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+h2 {animation-name: anonimus;
+  animation-duration: 5s;
+}
+h1 {display: inline-block;}
+h1:hover {color: red;
+transform: rotate(45deg);
+}
+a {
+display: inline-block;
+color: red;
+background-color: #ffdae9;
+border-radius: 20px;
+border: 1px solid red;
+margin: 10px;
+padding: 10px;
+}
+a:hover {transform: scale(1.5);}
+li:hover {transform: translate(5px, 0);}
+.trans {
+background-color: #afeeee;
+transition-property: background-color;
+transition-duration: 2s;
+}
+
+.trans:hover {background-color: #fffff0;}
+</style>
+</head>
+<body>
+<H1>CSS training</h1>
+<ul>
+<li>chapter</li>
+<li>chapter</li>
+<li>chapter</li>
+</ul>
+<h2>animation</h2>
+<p>Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit, 
+ sed do eiusmod tempor incididunt 
+ ut labore et dolore magna aliqua. 
+ Ut enim ad minim veniam, 
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, 
+ sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <a href="#" > link </a>
+ <div class="trans">
+ orem ipsum dolor sit amet,
+ </div>
+</body>
+</html>

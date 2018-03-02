@@ -1,0 +1,107 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CodeCamp</title>
+
+<style>
+
+th, td {padding: 10px; border: 1px solid black;}
+table {text-align: center; vertical-align:middle; border: 3px solid black; border-collapse: collapse;}
+tr:nth-of-type(odd){background-color:#ffffe0;}
+tr:nth-of-type(even){background-color:#e0ffff;}
+input[type="text"] {background-color: blue;}
+input[type="text"]:focus {background-color: white;}
+label {display: inline-block; width: 150px; background-color: grey;}
+
+</style>
+</head>
+<body>
+<H1>CSS training</h1>
+<form action="http://example.com/app/profile.php" method="post">
+ <input class="in" type="text" name="nickname" value="login"/>
+ <input class="in" type="password" name="pass" value="password"/>
+ <input type="submit" name="submit" value="check"/> 
+ </form>
+<table>
+<tr>
+<th>ttem </th>
+<th>area </th>
+<th>population </th>
+<th>price </th>
+</tr>
+<tr> 
+<td> mercury</td>
+<td rowspan="2"> 43</td>
+<td> 5b</td>
+<td> 4</td>
+</tr>
+<td> venus</td>
+<td> 9</td>
+<td> 6</td>
+</tr>
+<td> terrum</td>
+<td> 67</td>
+<td> 16b</td>
+<td> 18</td>
+</tr>
+<tr>
+<td>  terrum</td>
+<td colspan="3"> 67</td>
+</tr>
+</table>
+<form action="http://example.com/app/profile.php" method="post">
+<label for="select"> your choise </label>
+<select name="select">
+<option value="1"> mercury </option>
+<option value="2"> venus </option>
+<option value="3"> terrum </option>
+</select>
+         <p>
+            <label for="username">
+               Имя: 
+            </label>
+            <input class="in" type="text" name="username" />
+            <br />
+            <label for="nick">
+               фамилия: 
+            </label>
+            <input class="in" type="text" name="nick" />
+            <br />
+            <label for="email">
+               Адрес эл. почты: 
+            </label>
+            <input class="in" type="text" name="email" />
+            <br />
+            <label for="sex">
+               оплата: 
+            </label>
+            <input class="in" type="radio" name="sex" value="male" />
+            наличные
+            
+            <input type="radio" name="sex" value="female" />
+            чек
+           
+            <input type="radio" name="sex" value="secret" />
+            карта
+			<br/>
+			<label for="id_checkbox">купить в кредит</label>
+			<input type="checkbox" name="form_checkbox" value="1" id="id_
+checkbox" />
+<br/>
+<input type="hidden" value="1234567" name="userid" />
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+         </p>
+<p>Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit, 
+ sed do eiusmod tempor incididunt 
+ ut labore et dolore magna aliqua. 
+ Ut enim ad minim veniam, 
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, 
+ sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 
+</body>
+</html>
